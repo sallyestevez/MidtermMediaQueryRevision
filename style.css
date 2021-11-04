@@ -54,8 +54,6 @@ a, a:visited, a:active {
 }
 
 .questions {
-  background-color: #436C80;
-  color: #A7F0E6;
   padding: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -63,7 +61,6 @@ a, a:visited, a:active {
 
 .question {
   font-size: 20px;
-  color: #6FFFE9;
   font-weight: bold;
 }
 
@@ -72,9 +69,6 @@ a, a:visited, a:active {
 }
 
 .faqs {
-  padding: 75px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: #5BC0BE;
 }
 
@@ -258,6 +252,22 @@ h2 {
     color: #1C2541;
     font-weight: bold;
   }
+
+  .questions {
+    background-color: #55A8AA;
+    color: #3A506B;
+    padding: 10px;
+  }
+
+  .question {
+    color: #1C2541;
+  }
+
+  .faqs {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 @media only screen and (min-width: 720px) {
@@ -308,5 +318,20 @@ h2 {
     width: 50%;
     color: #5BC0BE;
     font-weight: bold;
+  }
+
+  .questions {
+    background-color: #436C80;
+    color: #A7F0E6;
+  }
+
+  .question {
+    color: #6FFFE9;
+  }
+
+  .faqs {
+    padding: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
