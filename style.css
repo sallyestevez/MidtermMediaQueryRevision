@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Didact+Gothic&family=Expletus+Sans&family=Heebo&family=Istok+Web&family=Jost&family=Kranky&family=Manjari&family=Megrim&family=Palette+Mosaic&family=Quicksand&family=Sen&family=Sigmar+One&family=Telex&family=Tenor+Sans&family=Thasadith&family=Train+One&family=Urbanist&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: #4B8895;
+  font-family: 'Jost', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #55A8AA;
+  font-size: 16px;
+}
+
+.header1 {
+  width: 30%;
+  display: flex;
+  padding-left: 20px;
+  justify-content: flex-start;
+}
+
+.header2 {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a, a:visited, a:active {
+  font-weight: bold;
+  color: #3A506B;
+  text-decoration: none;
+}
+
+.header a {
+  float: left;
+  color: #3A506B;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #0B132B;
+}
+
+.tagline {
+  text-align: center;
+  color: #A7F0E6;
+}
+
+.section1 {
+  background-color: rgba(28, 37, 65, .8);
+  padding: 20px;
+}
+
+.mira {
+  width: 100%;
+  background-image: url("images/Mira.png");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.mira1, .primordia1, .noctilum1, .oblivia1, .sylvalum1, .cauldros1 {
+  font-size: 30px;
+  align-self: flex-end;
+}
+
+.mira2, .primordia2, .noctilum2, .oblivia2, .sylvalum2, .cauldros2 {
+  color: #DFE1E2;
+  font-size: 18px;
+  width: 50%;
+  color: #5BC0BE;
+  font-weight: bold;
+}
+
+.questions {
+  background-color: #436C80;
+  color: #A7F0E6;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.question {
+  font-size: 20px;
+  color: #6FFFE9;
+  font-weight: bold;
+}
+
+.info {
+  background-color: #3A506B;
+}
+
+.faqs {
+  padding: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #5BC0BE;
+}
+
+#miraimg {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.primordia_description {
+  width: 100%;
+  background-image: url("images/primordia/Primordia.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.noctilum_description {
+  width: 100%;
+  background-image: url("images/noctilum/Noctilum.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.oblivia_description {
+  width: 100%;
+  background-image: url("images/oblivia/Oblivia.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.sylvalum_description {
+  width: 100%;
+  background-image: url("images/sylvalum/Sylvalum.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.cauldros_description {
+  width: 100%;
+  background-image: url("images/cauldros/Cauldros.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.location_tagline {
+  text-align: center;
+  font-size: 30px;
+  color: #A7F0E6;
+}
+
+.locations {
+  background-color: #3A506B;
+  padding: 20px;
+}
+
+.NLA {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #5BC0BE;
+}
+
+.New_LA {
+  padding-left: 75px;
+  padding-right: 75px;
+  text-align: center;
+}
+.NLA_img {
+  width: 100%;
+}
+
+.areas {
+  background-color: #436C80;
+  color: #5BC0BE;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.areas1, .areas2, .areas3 {
+  background-color: #436C80;
+  color: #5BC0BE;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  flex: 1;
+}
+
+.primordia_img, .noctilum_img, .oblivia_img, .sylvalum_img, .cauldros_img {
+  width: 100%;
+}
